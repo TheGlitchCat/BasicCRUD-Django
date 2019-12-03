@@ -64,6 +64,6 @@ python manage.py migrate
 | http://localhost:8000/api/v1/score/pk/ | GET | |
 | http://localhost:8000/api/v1/score/update/pk/ | PUT | name student professor value |
 | http://localhost:8000/api/v1/score/delete/pk/ | DELETE | |
-| http://localhost:8000/api/v1/scores/?search=param | | name pk |
-| http://localhost:8000/api/v1/scores/?ordering=param | | name id |
+| http://localhost:8000/api/v1/scores/?search=param | | name pk student__id student__name professor__id professor__name value |
+| http://localhost:8000/api/v1/scores/?ordering=param | | name pk student__id student__name professor__id professor__name value |
 
